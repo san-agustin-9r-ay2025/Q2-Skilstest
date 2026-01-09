@@ -1,55 +1,24 @@
-.home-page {
-        background-image: url(Drone10+copy.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+body {
+    background-image: url('OBMC+Quadrangle+2.webp');
+}
 
-    .team{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 30px;
-        margin-top: 16px;
-        padding: 40px;
-    }
+.container {
+    opacity: 85%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px;
+    width: 700px;
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+}
 
-    .column{
-        flex: calc(33.333% - 20px);
-        max-width: calc(33.333% - 20px);
-    }
-
-    @media screen and (max-width: 650px){
-    .column{
-        width: 100%;
-        display: block;
-    }
-    }
-
-    .card{
-        box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .container{
-        padding: 16px;
-    }
-
-    .title{
-        color: grey;
-    }
-
-    .button{
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-    }
-
-    .button:hover{
-        background-color: #555;
-    }
+#name {
+      width: 100%;
+        padding: 6px 10px;
+        font-size: 14px;
+        border: 1px solid #cfd8dc;
+        border-radius: 4px;
+        outline: none;
+}
