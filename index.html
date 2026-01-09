@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    
-    <!-- START OF CSS -->
+    <title>Skillstest</title>
+
+        <!-- START OF CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- START OF BOOTSTRAP 5 -->
@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </head>
-<body class="home-page">
+<body>
 
 <!-- START OF NAVBAR -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -34,28 +34,92 @@
         </form>
     </div>
     </nav>
-<!-- END OF NAVBAR -->
 
-<!-- CONTAINER -->
-    <div class="container-fluid mt-3" style="height:auto;">
-        <!-- SAMPLE CONTENT -->
-         <div class="container p-5 mt-3 bg-light text-dark center-div">
-                <h3>Home Page</h3><hr>
-                    <p>
-                    At O.B. Montessori Center, we are dedicated to providing a nurturing
-                        environment where academic excellence, creativity, and character
-                        development flourish. Explore our innovative programs designed to
-                        prepare students for success in a rapidly changing world.
-                    </p>
-         </div>
+    <div class="container p-2 mt-3 bg-light text-dark text-center">
+        <img src="OBMC 60 Icon_Circle.png" alt="logo" height="100" width=""> <h1>OBMC Enrollment Form</h1>
     </div>
-<!-- END OF CONTAINER -->
 
-<!-- START OF FOOTER -->
-    <footer class="text-center py-2 bg-dark text-light mt-auto fixed-bottom">
-        &copy; 2025 Copyright
-    </footer>
-<!-- END OF FOOTER -->
- 
+    <div class="container p-5 mt-3 bg-light text-dark">
+        <!-- ROW 1 -->
+            <div class="row">
+                <h3>Student's Information</h3>
+                <!-- COL 1 -->
+                    <div class="col-12 col-lg-6">
+                        <label for="name">first name:</label><br>
+                        <input type="text" id="name">
+                    </div>
+                <!-- COL 2 -->
+                <div class="col-12 md-4 col-lg-6">
+                    <label for="name">last name:</label><br>
+                    <input type="text" id="name">
+                </div>
+             </div>
+        <!-- ROW 2 -->
+            <div class="row mt-3">
+                <h3>Additional Information</h3>
+                <p>Mods of Learning</p>
+                <!-- COL 1 -->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <label for="Date">Birth Date:</label><br>
+                    <input type="date" id="name">
+                </div>
+                <!-- COL 2 -->
+                 <div class="col-12 col-md-4 col-lg-4">
+                    <label for="name">Gender:</label><br>
+                    <select name="gender" id="gender">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+                <!-- COL 3 -->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <label for="name">Grade and Section:</label><br>
+                    <select name="gender" id="gender">
+                        <option value="1">G9 Ruby</option>
+                        <option value="2">G9 Emerald</option>
+                        <option value="1">G9 Topaz</option>
+                        <option value="2">G9 Sapphire</option>
+                    </select>
+                </div>
+            </div>
+        <!-- ROW 3 -->
+            <div class="row mt-3">
+                <h3>Contact Details</h3>
+                <!-- COL 1 -->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email">
+                </div>
+        <!-- ROW 4 -->
+            <div class="row">
+                <!-- COL 1 -->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <label for="Number">Contact Number</label><br>
+                    <input type="text" id="name">
+                </div>
+        <!-- ROW 5 -->
+            <div class="row mt-3">
+                <div>
+                    <input type="radio" id="Coding" name="Coding" value="Coding">
+                    <label for="radio"> Online</label>
+                </div>
+            <div class="row mt-3">
+                <div>
+                    <input type="radio" id="Design" name="Design" value="Design">
+                    <label for="radio">Face to Face</label>
+                </div>
+                
+            </div>
+            <div class="row mt-3">
+                <div>
+                    <input type="checkbox" id="Design" name="Design" value="Design">
+                    <label for="checkbox">I comfirm</label>
+                </div>
+
+            </div>
+            <button class="btn btn-primary mt-3" type="button">Submit</button>
+                
+            
+    
 </body>
 </html>
